@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1612890502;s:6:"expire";i:9999999999;s:4:"tags";s:37:"f49_LAYOUT_GENERAL_CACHE_TAG,f49_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1612893183;s:6:"expire";i:9999999999;s:4:"tags";s:37:"f49_LAYOUT_GENERAL_CACHE_TAG,f49_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7067,9 +7067,10 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1612890502;s:6:"expire";i:9999999999;s:4:"t
    <referenceContainer name="footer">
       <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="Magento_Store::switch/stores.phtml"/>
    </referenceContainer>
-   <container name="div.sidebar.additional" htmlTag="div" htmlClass="sidebar sidebar-additional" after="div.sidebar.main">
-      <container name="sidebar.additional" as="sidebar_additional" label="Sidebar Additional"/>
+   <container name="maps.container" as="mapsContainer" label="Maps Container" htmlTag="div" htmlClass="maps-container">
+      <block class="Magento\Framework\View\Element\Template" name="mapsblock" template="Magento_Theme::myview.phtml"/>
    </container>
+   <move element="maps.container" destination="header.panel" before="-"/>
    <referenceBlock name="report.bugs" remove="true"/>
    <move element="copyright" destination="before.body.end"/>
 </body>

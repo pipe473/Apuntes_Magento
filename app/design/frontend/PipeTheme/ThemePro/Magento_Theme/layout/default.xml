@@ -24,11 +24,12 @@
             <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="Magento_Store::switch/stores.phtml"/>
         </referenceContainer>
 
-        <!-- My Container -->
-        <container name="div.sidebar.additional" htmlTag="div" htmlClass="sidebar sidebar-additional" after="div.sidebar.main">
-    <container name="sidebar.additional" as="sidebar_additional" label="Sidebar Additional"/>
-</container>
-        <!-- My Container -->
+            <!-- My Container -->
+                <container name="maps.container" as="mapsContainer" label="Maps Container" htmlTag="div" htmlClass="maps-container" >
+                    <block class="Magento\Framework\View\Element\Template" name="mapsblock" template="Magento_Theme::myview.phtml"/>
+                </container>
+                <move element="maps.container" destination="header.panel" before="-"/>
+            <!-- My Container -->
 
         <referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
