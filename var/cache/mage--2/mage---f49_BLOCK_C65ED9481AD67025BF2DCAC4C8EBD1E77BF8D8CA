@@ -1,0 +1,6 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1612886741;s:6:"expire";i:1612890341;s:4:"tags";s:57:"f49_BLOCK_HTML,f49_CAT_C,f49_CAT_C_7,f49_CAT_C_8,f49_MAGE";}
+
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+        <li  class="level0 nav-1 category-item first level-top parent"><a href="http://localhost:8888/magento/index.php/home.html"  class="level-top" ><span>Men</span></a><ul class="level0 submenu"><li  class="level1 nav-1-1 category-item first last"><a href="http://localhost:8888/magento/index.php/home/camisetas.html" ><span>Camisetas</span></a></li></ul></li><li  class="level0 nav-2 category-item last level-top parent"><a href="http://localhost:8888/magento/index.php/girls.html"  class="level-top" ><span>Women</span></a><ul class="level0 submenu"><li  class="level1 nav-2-1 category-item first"><a href="http://localhost:8888/magento/index.php/girls/camisetas.html" ><span>Camisetas</span></a></li><li  class="level1 nav-2-2 category-item last"><a href="http://localhost:8888/magento/index.php/girls/pantalones.html" ><span>Pantalones</span></a></li></ul></li>            </ul>
+</nav>
