@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1612886741;s:6:"expire";i:1612973141;s:4:"tags";s:81:"f49_CAT_P,f49_BLOCK_HTML,f49_CAT_P_4,f49_CAT_P_3,f49_CAT_P_2,f49_CAT_P_1,f49_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1612890504;s:6:"expire";i:1612976904;s:4:"tags";s:93:"f49_CAT_P,f49_BLOCK_HTML,f49_CAT_P_5,f49_CAT_P_4,f49_CAT_P_3,f49_CAT_P_2,f49_CAT_P_1,f49_MAGE";}
         <div class="block widget block-products-list grid">
                     <div class="block-title">
                 <strong>Products</strong>
@@ -7,6 +7,67 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1612886741;s:6:"expire";i:1612973141;s:4:"t
             <!-- new_products_content_widget_grid-->            <div class="products-grid grid">
                 <ol class="product-items widget-product-grid">
                                                                 <li class="product-item">                        <div class="product-item-info">
+                            <a href="http://localhost:8888/magento/index.php/camiseta-3.html" class="product-item-photo">
+                                
+<span class="product-image-container"
+      style="width:240px;">
+    <span class="product-image-wrapper"
+          style="padding-bottom: 125%;">
+        <img class="product-image-photo"
+                        src="http://localhost:8888/magento/pub/media/catalog/product/cache/587a6cd95f3040f0e04f1e3772f61b6f/c/a/camiseta3.jpg"
+            max-width="240"
+            max-height="300"
+            alt="Camiseta 3"/></span>
+</span>
+                            </a>
+                            <div class="product-item-details">
+                                <strong class="product-item-name">
+                                    <a title="Camiseta 3"
+                                       href="http://localhost:8888/magento/index.php/camiseta-3.html"
+                                       class="product-item-link">
+                                        Camiseta 3                                    </a>
+                                </strong>
+                                                                                                    
+                                <div class="price-box price-final_price" data-role="priceBox" data-product-id="5" data-price-box="product-id-5">
+    
+
+<span class="price-container price-final_price tax weee"
+        >
+        <span  id="old-price-5-widget-product-grid"                data-price-amount="16"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">€16.00</span></span>
+        </span>
+
+</div>
+                                
+                                                                    <div class="product-item-inner">
+                                        <div class="product-item-actions">
+                                                                                            <div class="actions-primary">
+                                                                                                                                                                    <form data-role="tocart-form" data-product-sku="Camiseta 3" action="http://localhost:8888/magento/index.php/checkout/cart/add/uenc/aHR0cDovL2xvY2FsaG9zdDo4ODg4L21hZ2VudG8vaW5kZXgucGhwLw%2C%2C/product/5/" method="post">
+                                                            <input type="hidden" name="product" value="5">
+                                                            <input type="hidden" name="uenc" value="aHR0cDovL2xvY2FsaG9zdDo4ODg4L21hZ2VudG8vaW5kZXgucGhwL2NoZWNrb3V0L2NhcnQvYWRkL3VlbmMvYUhSMGNEb3ZMMnh2WTJGc2FHOXpkRG80T0RnNEwyMWhaMlZ1ZEc4dmFXNWtaWGd1Y0dod0x3JTJDJTJDL3Byb2R1Y3QvNS8,">
+                                                            <input name="form_key" type="hidden" value="RMtNYr2Spn1HelEw" />                                                            <button type="submit"
+                                                                    title="Add to Cart"
+                                                                    class="action tocart primary">
+                                                                <span>Add to Cart</span>
+                                                            </button>
+                                                        </form>
+                                                                                                    </div>
+                                                                                                                                        <div class="actions-secondary" data-role="add-to-links">
+                                                                                                            <a href="#"
+                                                           data-post='{"action":"http:\/\/localhost:8888\/magento\/index.php\/wishlist\/index\/add\/","data":{"product":"5","uenc":"aHR0cDovL2xvY2FsaG9zdDo4ODg4L21hZ2VudG8vaW5kZXgucGhwLw,,"}}' class="action towishlist" data-action="add-to-wishlist" title="Add&#x20;to&#x20;Wish&#x20;List">
+                                                            <span>Add to Wish List</span>
+                                                        </a>
+                                                                                                                                                                                                                        <a href="#" class="action tocompare" data-post='{"action":"http:\/\/localhost:8888\/magento\/index.php\/catalog\/product_compare\/add\/","data":{"product":"5","uenc":"aHR0cDovL2xvY2FsaG9zdDo4ODg4L21hZ2VudG8vaW5kZXgucGhwLw,,"}}' title="Add&#x20;to&#x20;Compare">
+                                                            <span>Add to Compare</span>
+                                                        </a>
+                                                                                                    </div>
+                                                                                    </div>
+                                    </div>
+                                                            </div>
+                        </div>
+                                                                    </li><li class="product-item">                        <div class="product-item-info">
                             <a href="http://localhost:8888/magento/index.php/pantalones2.html" class="product-item-photo">
                                 
 <span class="product-image-container"
